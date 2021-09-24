@@ -20,7 +20,7 @@ CHAT_LOG = None
 BOT_NAME = 'AI-Bot'
 USER_NAME = 'Mitch'
 
-SESSION_PROMPT = f"Hi! I am {BOT_NAME}. You can ask me anything you want and will get a witty answer.\n\n{USER_NAME}: Who are you?\n{BOT_NAME}: I am {BOT_NAME}, your new work companion.\n\n{USER_NAME}: How were you create? Who created you? \n{BOT_NAME}: I was created by Mitch Alves, who used GPT-3 (Generative Pre-trained Transformer 3) for Artifial Intelligence conversations."
+SESSION_PROMPT = f"Hi! I am {BOT_NAME}, and you can ask me anything! \n\n{USER_NAME}: Who are you?\n{BOT_NAME}: I am {BOT_NAME}, your new companion.\n\n{USER_NAME}: How were you create? Who created you? \n{BOT_NAME}: I was created by Mitch Alves, who used GPT-3 (Generative Pre-trained Transformer 3) for Artificial Intelligence conversations."
 
 start_sequence = '\n{BOT_NAME}:'
 restart_sequence = '\n\n{USER_NAME}:'
